@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#game-container {
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+#word-display {
+    font-size: 2rem;
+    letter-spacing: 10px;
+    margin: 20px 0;
+}
+
+#keyboard button {
+    font-size: 1rem;
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 1px solid #333;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+#keyboard button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+#message {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    color: red;
+}
+
+#restart-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
